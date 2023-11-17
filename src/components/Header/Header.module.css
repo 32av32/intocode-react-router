@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    gap: 10px;
+}
+.logo {
+    font-size: 26px;
+}
+.link a {
+    color: grey;
+    font-weight: 700;
+    padding: 5px;
+}
+.link a:hover {
+    border-bottom: 3px solid grey;
+}
+.active a {
+    color: white;
+    border-bottom: 3px solid white;
+}
